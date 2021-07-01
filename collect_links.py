@@ -104,7 +104,7 @@ class CollectLinks:
         return list(dict.fromkeys(_list))
 
     def google(self, keyword, add_url=""):
-        self.browser.get("https://www.google.com/search?q={}&source=lnms&tbm=isch{}".format(keyword, add_url))
+        self.browser.get("https://www.google.com/search?q={}&source=lnms&tbm=isch{}&tbs=isz:l".format(keyword, add_url))
 
         time.sleep(1)
 
