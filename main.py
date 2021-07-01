@@ -339,7 +339,7 @@ if __name__ == '__main__':
     parser.add_argument('--no_gui', type=str, default='auto', help='No GUI mode. Acceleration for full_resolution mode. '
                                                                    'But unstable on thumbnail mode. '
                                                                     'Default: "auto" - false if full=false, true if full=true')
-    parser.add_argument('--limit', type=int, default=0, help='Maximum count of images to download per site. (0: infinite)')
+    parser.add_argument('--limit', type=int, default=0, help='Maximum count of images to download per search engine. (0: infinite)')
     args = parser.parse_args()
 
     _skip = False if str(args.skip).lower() == 'false' else True
