@@ -1,4 +1,4 @@
-# AutoCrawler
+# AutoCrawler (Driver issue fixed.)
 Google, Naver multiprocess image crawler (High Quality & Speed & Customizable)
 
 ![](docs/animation.gif)
